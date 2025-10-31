@@ -35,11 +35,11 @@ const CreateDraft = () => {
   ];
 
   const sampleVariants = [
-    "Managing type 2 diabetes isn’t just about tracking numbers—it’s about reclaiming your life and stepping into a new chapter of health and confidence. With Ozempic, paired with healthy habits, I feel supported every day to make choices that empower me. It’s not just treatment; it’s the start of my next era of strength, balance, and wellbeing. This journey is about living fully, on my terms, and celebrating every step forward.",
+    "Managing type 2 diabetes isn’t just about tracking numbers—it’s about reclaiming your life and stepping into a new chapter of health and confidence. With Mounjaro, paired with healthy habits, I feel supported every day to make choices that empower me. It’s not just treatment; it’s the start of my next era of strength, balance, and wellbeing. This journey is about living fully, on my terms, and celebrating every step forward.",
     
-    "Taking control of type 2 diabetes shouldn’t mean facing barriers or impossible costs. Ozempic helps me manage my health while fitting into my busy life, and with new affordability options like the $499 cash-pay program, it’s now within reach for more people than ever. It’s a way to prioritize your health, feel empowered, and take action today, without compromise. Everyone deserves access to care that works for them.",
+    "Taking control of type 2 diabetes shouldn’t mean facing barriers or impossible costs. Mounjaro helps me manage my health while fitting into my busy life, and with new affordability options like the $499 cash-pay program, it’s now within reach for more people than ever. It’s a way to prioritize your health, feel empowered, and take action today, without compromise. Everyone deserves access to care that works for them.",
     
-    "Obesity is a disease, not a matter of willpower or aesthetics, and it deserves compassion, understanding, and evidence-based care. With Ozempic, guided by my doctor, I can focus on my health, protect my heart and kidneys, and feel confident in the choices I make every day. This journey is about more than numbers—it’s about strength, resilience, and living fully without stigma."
+    "Obesity is a disease, not a matter of willpower or aesthetics, and it deserves compassion, understanding, and evidence-based care. With Mounjaro, guided by my doctor, I can focus on my health, protect my heart and kidneys, and feel confident in the choices I make every day. This journey is about more than numbers—it’s about strength, resilience, and living fully without stigma."
   ];
 
   const riskFlags = [
@@ -149,9 +149,8 @@ const CreateDraft = () => {
                     <SelectValue placeholder="Select product" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="ozempic">Ozempic®</SelectItem>
-                    <SelectItem value="rybelsus">Wegovy®</SelectItem>
-                    <SelectItem value="victoza">Rybelsus®</SelectItem>
+                    <SelectItem value="mounjaro">Mounjaro®</SelectItem>
+                    <SelectItem value="zepbound">Zepbound®</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -205,7 +204,7 @@ const CreateDraft = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <Textarea
-                placeholder="Example: Create a social media post about the benefits of Ozempic for type 2 diabetes management, focusing on A1C reduction and weight management benefits..."
+                placeholder="Example: Create a social media post about the benefits of Mounjaro for type 2 diabetes management, focusing on A1C reduction and weight management benefits..."
                 value={prompt}
                 onChange={(e) => setPrompt(e.target.value)}
                 className="min-h-[100px]"

@@ -29,7 +29,7 @@ const DraftsDashboard = () => {
   const drafts = [
     {
       id: 1,
-      title: "Ozempic Social Media Campaign",
+      title: "Mounjaro Social Media Campaign",
       persona: "Dr. Sarah Chen",
       status: "In Review",
       lastEdited: "2 hours ago",
@@ -73,7 +73,7 @@ const DraftsDashboard = () => {
     },
     {
       id: 5,
-      title: "Ozempic Benefits Infographic Text",
+      title: "Mounjaro Benefits Infographic Text",
       persona: "Dr. Sarah Chen",
       status: "Draft",
       lastEdited: "1 week ago",

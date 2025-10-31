@@ -52,7 +52,7 @@ const Dashboard = () => {
   const recentDrafts = [
     {
       id: 1,
-      title: "Ozempic Social Media Campaign",
+      title: "Mounjaro Social Media Campaign",
       persona: "Dr. Sarah Chen",
       status: "In Review",
       lastModified: "2 hours ago",
@@ -99,7 +99,7 @@ const Dashboard = () => {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold text-primary mb-2">Welcome Back, Abhinay</h1>
+          <h1 className="text-3xl font-bold text-primary mb-2">Welcome Back, Nishant</h1>
           <p className="text-muted-foreground">
             Manage your AI-generated content and compliance workflow
           </p>

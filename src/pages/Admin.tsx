@@ -26,7 +26,7 @@ const Admin = () => {
     {
       id: 1,
       name: "Sarah Johnson",
-      email: "sarah.johnson@novonordisk.com",
+      email: "sarah.johnson@procdna..com",
       role: "Marketer",
       department: "Diabetes Marketing",
       lastActive: "2 hours ago",
@@ -35,7 +35,7 @@ const Admin = () => {
     {
       id: 2,
       name: "Dr. Michael Brown",
-      email: "michael.brown@novonordisk.com",
+      email: "michael.brown@procdna.com",
       role: "Reviewer",
       department: "Medical Affairs",
       lastActive: "1 day ago",
@@ -44,7 +44,7 @@ const Admin = () => {
     {
       id: 3,
       name: "Lisa Chen",
-      email: "lisa.chen@novonordisk.com",
+      email: "lisa.chen@procdna.com",
       role: "Admin",
       department: "Digital Marketing",
       lastActive: "3 hours ago",
@@ -53,7 +53,7 @@ const Admin = () => {
     {
       id: 4,
       name: "Robert Wilson",
-      email: "robert.wilson@novonordisk.com",
+      email: "robert.wilson@procdna.com",
       role: "Marketer",
       department: "Obesity Marketing",
       lastActive: "1 week ago",
@@ -85,7 +85,7 @@ const Admin = () => {
       id: 1,
       action: "Content Approved",
       user: "Dr. Michael Brown",
-      target: "Ozempic Social Media Campaign",
+      target: "Mounjaro Social Media Campaign",
       timestamp: "2 hours ago",
       details: "MLR review completed - approved with minor changes"
     },

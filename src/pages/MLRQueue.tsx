@@ -22,7 +22,7 @@ const MLRQueue = () => {
   const queueItems = [
     {
       id: 1,
-      title: "Ozempic Social Media Campaign",
+      title: "Mounjaro Social Media Campaign",
       marketer: "Sarah Johnson",
       persona: "Dr. Sarah Chen",
       submittedAt: "2 hours ago",
@@ -30,7 +30,7 @@ const MLRQueue = () => {
       riskLevel: "medium",
       wordCount: 125,
       flaggedIssues: 3,
-      content: "Managing diabetes doesn't have to be overwhelming. With the right tools and support, you can maintain excellent blood sugar control while living life to the fullest. Ozempic® has been shown to help adults with type 2 diabetes achieve better A1C levels. Talk to your healthcare provider about whether Ozempic® is right for you."
+      content: "Managing diabetes doesn't have to be overwhelming. With the right tools and support, you can maintain excellent blood sugar control while living life to the fullest. Mounjaro® has been shown to help adults with type 2 diabetes achieve better A1C levels. Talk to your healthcare provider about whether Mounjaro® is right for you."
     },
     {
       id: 2,
@@ -42,7 +42,7 @@ const MLRQueue = () => {
       riskLevel: "low",
       wordCount: 89,
       flaggedIssues: 1,
-      content: "Just like any journey, managing diabetes is about taking it one step at a time! 🌟 The latest research shows that medications like Ozempic® can make a real difference in your health journey. Always consult your doctor first! #DiabetesAwareness"
+      content: "Just like any journey, managing diabetes is about taking it one step at a time! 🌟 The latest research shows that medications like Mounjaro® can make a real difference in your health journey. Always consult your doctor first! #DiabetesAwareness"
     },
     {
       id: 3,
@@ -54,7 +54,7 @@ const MLRQueue = () => {
       riskLevel: "high",
       wordCount: 203,
       flaggedIssues: 7,
-      content: "Diabetes doesn't mean sacrificing flavor! Today I'm sharing my secret to creating meals that are both delicious and diabetes-friendly. Combined with proper medication like Ozempic®, you can enjoy amazing food while managing your condition effectively."
+      content: "Diabetes doesn't mean sacrificing flavor! Today I'm sharing my secret to creating meals that are both delicious and diabetes-friendly. Combined with proper medication like Mounjaro®, you can enjoy amazing food while managing your condition effectively."
     }
   ];
 

@@ -26,14 +26,14 @@ const Login = () => {
             <span className="text-2xl font-bold text-primary-foreground">NN</span>
           </div>
           <h1 className="text-2xl font-bold text-primary mb-2">Digital Twin Platform</h1>
-          <p className="text-muted-foreground">Novo Nordisk GenAI Messaging</p>
+          <p className="text-muted-foreground">ProcDNA GenAI Messaging</p>
         </div>
 
         <Card className="shadow-card border-border/50">
           <CardHeader className="text-center">
             <CardTitle className="text-xl">Welcome Back</CardTitle>
             <CardDescription>
-              Sign in with your Novo Nordisk credentials
+              Sign in with your ProcDNA credentials
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
@@ -42,7 +42,7 @@ const Login = () => {
               <Input
                 id="email"
                 type="email"
-                placeholder="your.name@novonordisk.com"
+                placeholder="your.name@procdna.com"
                 className="bg-input"
               />
             </div>
@@ -70,7 +70,7 @@ const Login = () => {
         </Card>
 
         <div className="text-center mt-6 text-sm text-muted-foreground">
-          Secure access for Novo Nordisk employees only
+          Secure access for ProcDNA employees only
         </div>
       </div>
     </div>
